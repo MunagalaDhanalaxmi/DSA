@@ -1,4 +1,11 @@
-class Solution {
+/* 
+for 0-ns
+Add current 
+numbers < current n.o
+add the current list
+chexk the size
+recursive repeat same 
+*/class Solution {
     public List<List<Integer>> combine(int n, int k) {
         List<List<Integer>> result = new ArrayList<>();
         backtrack(1, n, k, new ArrayList<>(), result);
